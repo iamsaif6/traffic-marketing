@@ -1,0 +1,104 @@
+/* Color Theme */
+
+.btn,input[type="submit"]{
+     background: #06D6A0;
+     border-color: #06D6A0 !important;
+}
+
+.dropdown li a:hover{
+     background: #06D6A0;
+   }
+
+   nav .main-nav li:hover > a{
+     color: #06D6A0;
+}
+
+   /* Slick Nav */
+
+.slick-nav .dropdown li a:hover,.slicknav_nav .slicknav_row:hover,.slicknav_nav a:hover,.slicknav_nav .slicknav_row:hover a,.slicknav_btn{
+     background: #06D6A0;
+   }
+   
+
+
+/* Header CTA */
+
+.hero.cta-section{
+     background: url(../img/servies.detal.header.jpg);
+     background-size: cover;
+     background-position: center;
+     color: #fff;
+     position: relative;
+     z-index: 1;
+     padding: 130px 0;
+}
+
+.hero.cta-section.text-center h2 {
+     color: #fff;
+     font-size: 36px;
+     font-weight: 700;
+     margin-bottom: 25px;
+   }
+   .hero.cta-section.text-center p {
+     color: #fff;
+     font-weight: 400;
+     font-size: 22px;
+   }
+
+   .hero.cta-section::after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #073b4c;
+	content: '';
+	opacity: .38;
+	z-index: -1;
+}
+
+
+
+.services-v1 nav .main-nav a:hover {
+     color: #06D6A0;
+   }
+
+
+   /* Bottom CTA */
+
+
+   .bottom.cta-section{
+        background: url(../img/servies.detal-bottom-cta.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        z-index: 1;
+   }
+
+   
+.bottom.cta-section h2 {
+     color: #fff;
+     font-weight: 700;
+     font-size: 36px;
+     margin-bottom: 10px;
+   }
+   .bottom.cta-section p {
+     color: #fff;
+     margin-bottom: 20px;
+   }
+
+   .bottom.cta-section:after {
+     position: absolute;
+     left: 0;
+     top: 0;
+     content: '';
+     background: #073b4c;
+     width: 100%;
+     height: 100%;
+     opacity: .62;
+     z-index: -1;
+   }
+
+   .services-v1 .social-link a:hover,.services-v1 .social-link a:hover i{
+        color: #06D6A0;
+   }

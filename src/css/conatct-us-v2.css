@@ -1,0 +1,62 @@
+.btn,input[type="submit"]{
+  background: #06D6A0;
+  border-color: #06D6A0 !important;
+}
+
+a:hover,.social-link a:hover, .social-link a:hover i{
+  color:#06D6A0 !important;
+}
+
+
+
+
+.dropdown li a:hover{
+  background: #06D6A0;
+}
+
+nav .main-nav li:hover > a{
+  color: #06D6A0;
+}
+
+/* Slick Nav */
+
+.slick-nav .dropdown li a:hover,.slicknav_nav .slicknav_row:hover,.slicknav_nav a:hover,.slicknav_nav .slicknav_row:hover a,.slicknav_btn{
+  background: #06D6A0;
+}
+/* Header CTA */
+
+.hero.cta-section{
+  background: url(../img/servics-cta.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 130px 0;
+}
+
+.hero.cta-section.text-center h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.hero.cta-section.text-center p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.hero.cta-section::after {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+background: #073b4c;
+content: '';
+opacity: .38;
+z-index: -1;
+}
+
+

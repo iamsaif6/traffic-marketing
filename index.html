@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Home 1</title>
+     <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/f95624662f.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="./src/css/owl.carousel.min.css">
+     <link rel="stylesheet" href="./src/css/main-grid.css">
+     <link rel="stylesheet" href="./src/css/slicknav.min.css">
+     <link rel="stylesheet" href="./src/css/style.css">
+     <link rel="stylesheet" href="./src/css/responsive.css">
+     <link rel="stylesheet" href="./src/css/colornip.min.css">
+     <link id="theme" rel="stylesheet" href="./src/themes/theme-default.css">
+
+    
+</head>
+
+<body id="body">
+
+     <div class="Switcher">
+          <button id="Switcher__control" class="Switcher__control">
+               <i class="fas fa-eye-dropper"></i>
+          </button>
+          <h5 style="margin-bottom: 5px">Change Color</h5>
+          <ul id="colors" data-dir="./src/themes/">
+              <li data-scheme="theme-default" data-color="#EF476F"></li>
+              <li data-scheme="theme-purple" data-color="#9b59b6"></li>
+              <li data-scheme="theme-blue" data-color="#3498db"></li>
+              <li data-scheme="theme-green" data-color="#2ecc71"></li>
+              <li data-scheme="theme-sky" data-color="#3c40c6"></li>
+              <li data-scheme="theme-gray" data-color="#3d3d3d"></li>
+              <li data-scheme="theme-red" data-color="#ff3838"></li>
+              <li data-scheme="theme-pumkin" data-color="#d35400"></li>
+              <li data-scheme="theme-mid-blue" data-color="#2c3e50"></li>
+              <li data-scheme="theme-innendo" data-color="#a5b1c2"></li>
+          </ul>
+
+      </div>
+
+
+     <!-- Nav Area -->
+
+     <nav id="new">
+          <div class="row">
+               <div class="col span_2_of_12">
+                    <div class="logo">
+                         <a href="index.html"><img src="./src/img/logo.png" alt=""></a>
+                    </div>
+               </div>
+               <div class="col span_8_of_12">
+                    <ul class="main-nav" id="menu-slick">
+                         <li><a href="./index.html">home</a>
+                              <ul class="dropdown">
+                                   <li><a href="./home2.html">Home Page V2</a></li>
+                                   <li><a href="./home3.html">Home Page V3</a></li>
+                                   <li><a href="./home-4.html">Home Page V4</a></li>
+                              </ul>
+                         </li>
+                         <li><a href="./about-us.html">About</a></li>
+                         <li><a href="./servies-detail.html">servies</a>
+                              <ul class="dropdown">
+                                   <li><a href="./servies-v1.html">Services V1</a></li>
+                                   <li><a href="./servies-v2.html">Services V2</a></li>
+
+                              </ul>
+                         </li>
+                         <li><a href="./case-study-details.html">case studies</a>
+                              <ul class="dropdown">
+                                   <li><a href="./case-study-v1.html">Case Study V1</a></li>
+                                   <li><a href="./case-study-v2.html">Case Study V2</a></li>
+
+                              </ul>
+                         </li>
+                         <li><a href="#">Pages</a>
+                              <ul class="dropdown">
+                                   <li><a href="./team.html">team</a></li>
+                                   <li><a href="./faq.html">FAQ</a></li>
+                                   <li><a href="./pricing-table.html">Pricing</a></li>
+                                   <li><a href="./free-seo-analysis.html">seo analytics</a></li>
+
+                              </ul>
+                         </li>
+                         <li><a href="./blog.html">blog</a>
+                              <ul class="dropdown">
+                                   <li><a href="./single-blog.html">Single Blog Post</a></li>
+
+
+                              </ul>
+                         </li>
+                         <li><a href="#">contact</a>
+                              <ul class="dropdown">
+                                   <li><a href="./contact-us-v1.html">contact V1</a></li>
+                                   <li><a href="./contact-us-v2.html">contact V2</a></li>
+
+                              </ul>
+                         </li>
+                    </ul>
+               </div>
+               <div class="col span_2_of_12">
+                    <div class="nav-btn">
+                         <a href="./free-seo-analysis.html" class="btn btn-nav">Free SEO Analysis</a>
+                    </div>
+               </div>
+               
+          </div>
+          <div id="slick-wrapper"></div>
+     </nav>
+
+     <!-- Header Area -->
+
+     <header>
+          <div class="row">
+               <div class="col span_1_of_2">
+                    <div class="hero-area-wrap">
+                         <div class="hero-area-text">
+                              <h2>Business has only
+                                   two functions marketing
+                                   and innovation.</h2>
+
+                              <p>Traffic is a great platform to stand out your website. So try now.</p>
+
+                              <div class="hero-form">
+                                   <form action="./contact-us-v1.html">
+                                        <input class="jscolor" id="bg-change" onchange="myfun()" type="text"
+                                             placeholder="Your Website Link">
+                                        <input class="btn" type="submit" value="Get Free Analytics">
+                                   </form>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="col span_1_of_2">
+                    <div class="hero-area-wrap">
+                         <div class="hero-area-img">
+                              <img src="./src/img/hero0img.png" alt="">
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </header>
+
+     <!-- Servies Section -->
+     <section class="servies-section section-padding" id="waypoints-triggers">
+          <div class="row">
+               <div class="col span_2_of_2">
+                    <div class="section-title">
+                         <h3>Some of Our Services</h3>
+                         <p class="description">Conveniently whiteboard ubiquitous niche markets and accurate
+                              collaboration. <br>
+                              Holisticly supply client-focused models B2B processes. </p>
+                    </div>
+               </div>
+          </div>
+
+          <div class="row">
+               <div class="col span_1_of_3">
+                    <div class="single-servies-box">
+                         <div class="single-serviea-icon">
+                              <i class="fas fa-envelope-open-text"></i>
+                         </div>
+                         <h4>Online Marketing</h4>
+                         <p class="description">impact scalab niche markets rather than collabora
+                              Interactively optimize fully tested data with
+                              Dramatically grow enterprise-wide
+                         </p>
+                         <a class="servies-btn" href="#">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+
+                    </div>
+               </div>
+               <div class="col span_1_of_3">
+                    <div class="single-servies-box">
+                         <div class="single-serviea-icon">
+                              <i class="fab fa-soundcloud"></i>
+                         </div>
+                         <h4>Marketing Research</h4>
+                         <p class="description">Professionally pontificate B2B innovation via low-risk
+                              high-yield information. Interactively reconceptualize
+                              flexible leadership
+                         </p>
+                         <a class="servies-btn" href="#">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+
+                    </div>
+               </div>
+               <div class="col span_1_of_3">
+                    <div class="single-servies-box">
+                         <div class="single-serviea-icon">
+                              <i class="fas fa-desktop"></i>
+                         </div>
+                         <h4>Content Submission</h4>
+                         <p class="description">Interactively architect frictionless action items with
+                              extensive expertise. Phosfluorescently develop
+                              user friendly meta.
+                         </p>
+                         <a class="servies-btn" href="#">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+
+                    </div>
+               </div>
+
+
+
+
+               <div class="col span_1_of_3">
+                    <div class="single-servies-box">
+                         <div class="single-serviea-icon">
+                              <i class="fas fa-chart-bar"></i>
+                         </div>
+                         <h4>Advanced Analytics</h4>
+                         <p class="description">Recaptiualize just in time alignments before
+                              accurate mindshare. enhance leveraged infomed
+                              without best-of-breed
+                              .
+                         </p>
+                         <a class="servies-btn" href="#">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+
+                    </div>
+               </div>
+               <div class="col span_1_of_3">
+                    <div class="single-servies-box">
+                         <div class="single-serviea-icon">
+                              <i class="fas fa-search-dollar"></i>
+                         </div>
+                         <h4>PPC Management</h4>
+                         <p class="description">Kectively underwhelm maintainable architectures
+                              through parallel process improvements.
+                              Rapidiously expedite user
+                         </p>
+                         <a class="servies-btn" href="#">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+
+                    </div>
+               </div>
+               <div class="col span_1_of_3">
+                    <div class="single-servies-box">
+                         <div class="single-serviea-icon">
+                              <i class="fas fa-rocket"></i>
+                         </div>
+                         <h4>Social Media Services</h4>
+                         <p class="description"> Distinctively engage transparent networks without
+                              client-centric manufactured products.
+                              Monotonectally
+                         </p>
+                         <a class="servies-btn" href="#">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+
+                    </div>
+               </div>
+          </div>
+
+
+          <div class="services-bottom">
+               <div class="row">
+                    <div class="col span_1_of_2">
+                         <div class="services-text-wrap">
+                              <div class="services-text">
+                                   <div class="section-title">
+                                        <h3>Transparency of Online Marketing
+                                             Efforts from us</h3>
+                                        <p class="description">Conveniently whiteboard ubiquitous niche markets and
+                                             accurate
+                                             collaboration and idea-sharing. Holisticly supply client-focused
+                                             models vis-a-vis B2B processes. </p>
+                                        <a href="#" class="btn">How it works</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col span_1_of_2">
+                         <div class="sevies-img-wrap">
+                              <div class="servies-img">
+                                   <img src="./src/img/servies-img.png" alt="">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Case Study Section -->
+
+     <section class="case-study-section gray-bg section-padding">
+          <div class="row">
+               <div class="col span_2_of_2">
+                    <div class="section-title">
+                         <h3>Some of Our Case Study</h3>
+                         <p class="description">Ollaboratively enable standards compliant value vis-a-vis e-business
+                              meta-services. <br>
+                              enhance end-to-end niches before integrated web services.
+                         </p>
+                    </div>
+               </div>
+          </div>
+
+
+          <div class="row">
+               <div class="col span_12_of_12">
+                    <div class="carosuel-wrapper owl-carousel">
+                         <div class="single-carousel-item">
+                              <div class="single-caroseul-wrapper bg-1">
+                                   <div class="single-caroseul-overlay">
+                                        <div class="single-carousel-cell">
+                                             <h4>icelolly.com</h4>
+                                             <h5>Analytics 360 improving business decisions</h5>
+                                             <p class="description">
+                                                  Seamlessly extend worldwide internal or organic
+                                                  sources vis- team driven outside box thinking.
+                                                  Proactively drive technically sound.
+
+                                             </p>
+
+                                             <a href="#"><i class="fa fa-arrow-right"></i></a>
+
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="single-carousel-item">
+                              <div class="single-caroseul-wrapper bg-2">
+                                   <div class="single-caroseul-overlay">
+                                        <div class="single-carousel-cell">
+                                             <h4>icelolly.com</h4>
+                                             <h5>Analytics 360 improving business decisions</h5>
+                                             <p class="description">
+                                                  Seamlessly extend worldwide internal or organic
+                                                  sources vis- team driven outside box thinking.
+                                                  Proactively drive technically sound.
+
+                                             </p>
+
+                                             <a href="#"><i class="fa fa-arrow-right"></i></a>
+
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="single-carousel-item">
+                              <div class="single-caroseul-wrapper bg-3">
+                                   <div class="single-caroseul-overlay">
+                                        <div class="single-carousel-cell">
+                                             <h4>icelolly.com</h4>
+                                             <h5>Analytics 360 improving business decisions</h5>
+                                             <p class="description">
+                                                  Seamlessly extend worldwide internal or organic
+                                                  sources vis- team driven outside box thinking.
+                                                  Proactively drive technically sound.
+
+                                             </p>
+
+                                             <a href="#"><i class="fa fa-arrow-right"></i></a>
+
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="single-carousel-item">
+                              <div class="single-caroseul-wrapper bg-2">
+                                   <div class="single-caroseul-overlay">
+                                        <div class="single-carousel-cell">
+                                             <h4>icelolly.com</h4>
+                                             <h5>Analytics 360 improving business decisions</h5>
+                                             <p class="description">
+                                                  Seamlessly extend worldwide internal or organic
+                                                  sources vis- team driven outside box thinking.
+                                                  Proactively drive technically sound.
+
+                                             </p>
+
+                                             <a href="#"><i class="fa fa-arrow-right"></i></a>
+
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Review Section -->
+
+     <section class="review-section section-padding">
+          <div class="row">
+               <div class="col span_2_of_2">
+                    <div class="review-crousel owl-carousel">
+                         <div class="single-review-carosuel">
+                              <p class="review-text">
+                                   " Ridiculously easy to use. We have been looking for an intuitive tool like this for
+                                   a while and this is just what we needed "
+                              </p>
+
+                              <div class="review-img">
+                                   <img src="./src/img/review.png" alt="">
+                              </div>
+                              <p class="review-name">Mark McClendon</p>
+                              <p class="review-work">Partner & Executive Director, VML</p>
+                         </div>
+                         <div class="single-review-carosuel">
+                              <p class="review-text">
+                                   " Ridiculously easy to use. We have been looking for an intuitive tool like this for
+                                   a while and this is just what we needed "
+                              </p>
+
+                              <div class="review-img">
+                                   <img src="./src/img/review.png" alt="">
+                              </div>
+                              <p class="review-name">Mark McClendon</p>
+                              <p class="review-work">Partner & Executive Director, VML</p>
+                         </div>
+                         <div class="single-review-carosuel">
+                              <p class="review-text">
+                                   " Ridiculously easy to use. We have been looking for an intuitive tool like this for
+                                   a while and this is just what we needed "
+                              </p>
+
+                              <div class="review-img">
+                                   <img src="./src/img/review.png" alt="">
+                              </div>
+                              <p class="review-name">Mark McClendon</p>
+                              <p class="review-work">Partner & Executive Director, VML</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- CTA Section -->
+     <section class="cta-section">
+          <div class="row">
+               <div class="col span_7_of_12">
+                    <h2>Ready to improve your digital marketing efforts?</h2>
+               </div>
+               <div class="col span_5_of_12">
+                    <div class="cta-btn-wrap">
+                         <a href="./free-seo-analysis.html" class="btn">Get free Seo Analysis</a>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+     <!-- Pricing Section -->
+     <section class="price-section section-padding">
+          <div class="row">
+               <div class="col span_2_of_2">
+                    <div class="section-title">
+                         <h3>Some of Our Best Pricing</h3>
+                         <p class="description">Seamlessly leverage existing extensible customer service for worldwide
+                              total <br>
+                              fashion future-proof alignments through leadership.
+                         </p>
+                    </div>
+               </div>
+          </div>
+
+          <div class="row">
+               <div class="col span_1_of_3">
+                    <div class="single-price-wrapper">
+                         <p class="price-name">Basic</p>
+                         <p class="price">$29.99</p>
+                         <p class="price-time">per month</p>
+                         <ul>
+                              <li>Limited marketing & growth hacks</li>
+                              <li>5 Analytics Campaigns</li>
+                              <li>300 Keywords</li>
+                              <li>250,000 Crawled Pages</li>
+                              <li>Unlimited updates</li>
+                         </ul>
+
+                         <a href="./pricing-table.html" class="btn">Purchase Plan</a>
+                    </div>
+               </div>
+               <div class="col span_1_of_3">
+                    <div class="single-price-wrapper">
+                         <p class="price-name">Basic</p>
+                         <p class="price">$29.99</p>
+                         <p class="price-time">per month</p>
+                         <ul>
+                              <li>Limited marketing & growth hacks</li>
+                              <li>5 Analytics Campaigns</li>
+                              <li>300 Keywords</li>
+                              <li>250,000 Crawled Pages</li>
+                              <li>Unlimited updates</li>
+                         </ul>
+
+                         <a href="./pricing-table.html" class="btn">Purchase Plan</a>
+                    </div>
+               </div>
+               <div class="col span_1_of_3">
+                    <div class="single-price-wrapper">
+                         <p class="price-name">Basic</p>
+                         <p class="price">$29.99</p>
+                         <p class="price-time">per month</p>
+                         <ul>
+                              <li>Limited marketing & growth hacks</li>
+                              <li>5 Analytics Campaigns</li>
+                              <li>300 Keywords</li>
+                              <li>250,000 Crawled Pages</li>
+                              <li>Unlimited updates</li>
+                         </ul>
+
+                         <a href="./pricing-table.html" class="btn">Purchase Plan</a>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Brand logo -->
+     <section class="brand-logos">
+          <div class="row">
+               <div class="col span_1_of_6">
+                    <div class="brand-img-wrap">
+                         <div class="brand-img">
+                              <img src="./src/img/barand.png" alt="">
+                         </div>
+                    </div>
+               </div>
+               <div class="col span_1_of_6">
+                    <div class="brand-img-wrap">
+                         <div class="brand-img">
+                              <img src="./src/img/barand2.png" alt="">
+                         </div>
+                    </div>
+               </div>
+               <div class="col span_1_of_6">
+                    <div class="brand-img-wrap">
+                         <div class="brand-img">
+                              <img src="./src/img/barand3.png" alt="">
+                         </div>
+                    </div>
+               </div>
+               <div class="col span_1_of_6">
+                    <div class="brand-img-wrap">
+                         <div class="brand-img">
+                              <img src="./src/img/barand4.png" alt="">
+                         </div>
+                    </div>
+               </div>
+               <div class="col span_1_of_6">
+                    <div class="brand-img-wrap">
+                         <div class="brand-img">
+                              <img src="./src/img/barand5.png" alt="">
+                         </div>
+                    </div>
+               </div>
+               <div class="col span_1_of_6">
+                    <div class="brand-img-wrap">
+                         <div class="brand-img">
+                              <img src="./src/img/barand6.png" alt="">
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Footer area -->
+
+     <footer class="section-padding light-bg">
+          <div class="row">
+               <div class="col span_8_of_12">
+                    <div class="row">
+                         <div class="col span_4_of_12">
+                              <div class="single-footer-link">
+                                   <h2>Product</h2>
+                                   <ul>
+                                        <li><a href="./about-us.html">Features</a></li>
+                                        <li><a href="./pricing-table.html">Pricing</a></li>
+                                        <li><a href="#">Customers</a></li>
+                                        <li><a href="#">Page Builder</a></li>
+                                        <li><a href="#">Whats New</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+
+                         <div class="col span_4_of_12">
+                              <div class="single-footer-link">
+                                   <h2>Company</h2>
+                                   <ul>
+                                        <li><a href="./about-us.html">About Us</a></li>
+                                        <li><a href="#">Try Demo</a></li>
+                                        <li><a href="#">Terms of service</a></li>
+                                        <li><a href="#">Page Builder</a></li>
+                                        <li><a href="#">Privacy policy</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+
+                         <div class="col span_4_of_12">
+                              <div class="single-footer-link">
+                                   <h2>Help Center</h2>
+                                   <ul>
+                                        <li><a href="#">Help Center</a></li>
+                                        <li><a href="#">Email Us</a></li>
+                                        <li><a href="#">Message Us</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Whats New</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="col span_4_of_12 footer-span">
+                    <div class="footer-form">
+                         <h2>Sign Up to Our Weekly Newslater</h2>
+                         <form action="#">
+                              <input type="email" placeholder="Email Address">
+                              <input type="submit" value="Sign Up">
+                         </form>
+                         <h2>Social</h2>
+                         <div class="social-link">
+                              <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+                              <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                              <a href="#"><i class="fab fa-pinterest"></i>Pinterest</a>
+                              <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+                              <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </footer>
+
+
+     <!-- Footer Bottom -->
+     <section class="footer-bottom">
+          <p class="description">&copy; Traffic 2020 All Right Reserved . Coded By Saif Hasan</p>
+     </section>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="./src/js/colornip.min.js"></script>
+     <script src="./src/js/html5shiv.min.js"></script>
+     <script src="./src/js/owl.carousel.min.js"></script>
+     <script src="./src/js/jscolor.js"></script>
+     <script src="./src/js/jquery.slicknav.min.js"></script>
+     <script src="./src/js/jquery.waypoints.js"></script>
+     <script src="./src/js/app.js"></script>
+     <script>
+          $(function () {
+               $('#menu-slick').slicknav({
+                    prependTo: '#slick-wrapper'
+               });
+          });
+
+          document.addEventListener('scroll' , () => {
+               let nav = document.querySelector('#new');
+               let trigger = document.querySelector('#waypoints-triggers');
+               let sticky = trigger.offsetTop;
+               nav.classList.toggle('sticky' , pageYOffset >= sticky);
+          });
+
+
+
+
+     </script>
+
+    
+
+</body>
+
+</html>

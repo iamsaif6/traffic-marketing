@@ -1,0 +1,58 @@
+/* Theme COlor */
+
+.btn,input[type="submit"]{
+     background: #06D6A0;
+     border-color: #06D6A0 !important;
+}
+
+.social-link a:hover, .social-link a:hover i{
+     color: #06D6A0;
+}
+
+.dropdown li a:hover{
+     background: #06D6A0;
+   }
+   
+   nav .main-nav li:hover > a{
+     color: #06D6A0;
+   }
+   
+   /* Slick Nav */
+   
+   .slick-nav .dropdown li a:hover,.slicknav_nav .slicknav_row:hover,.slicknav_nav a:hover,.slicknav_nav .slicknav_row:hover a,.slicknav_btn{
+     background: #06D6A0;
+   }
+
+
+
+/* Header CTA */
+
+.hero.cta-section{
+     background: url(../img/case-study-v1-hero.jpg);
+}
+
+.theme-3 .single-caroseul-overlay{
+     padding: 95px 20px;
+}
+
+.single-caroseul-wrapper.bg-5{
+     background: url(../img/case-study-5.jpg);
+}
+.single-caroseul-wrapper.bg-6{
+     background: url(../img/case-study-6.jpg);
+}
+.single-caroseul-wrapper.bg-7{
+     background: url(../img/case-study-7.jpg);
+}
+.single-caroseul-wrapper.bg-8{
+     background: url(../img/case-study-8.jpg);
+}
+
+.single-carousel-cell h4{
+     font-size: 20px;
+     margin-bottom: 10px;
+}
+
+.bottom.cta-section{
+     background: url(../img/case-study-bottom-cta.jpg);
+}

@@ -1,0 +1,134 @@
+/* Theme Color */
+
+.btn,input[type="submit"]{
+     background: #06D6A0;
+     border-color: #06D6A0 !important;
+}
+
+a:hover,.social-link a:hover, .social-link a:hover i{
+     color:#06D6A0 !important;
+}
+
+.dropdown li a:hover{
+     background: #06D6A0;
+   }
+   
+   nav .main-nav li:hover > a{
+     color: #06D6A0;
+   }
+   
+   /* Slick Nav */
+   
+   .slick-nav .dropdown li a:hover,.slicknav_nav .slicknav_row:hover,.slicknav_nav a:hover,.slicknav_nav .slicknav_row:hover a,.slicknav_btn{
+     background: #06D6A0;
+   }
+
+
+
+/* Header CTA */
+
+.hero.cta-section{
+     background: url(../img/seo-analysis-header.jpg);
+     background-size: cover;
+     background-position: center;
+     color: #fff;
+     position: relative;
+     z-index: 1;
+     padding: 130px 0;
+}
+
+.hero.cta-section.text-center h2 {
+     color: #fff;
+     font-size: 36px;
+     font-weight: 700;
+     margin-bottom: 25px;
+   }
+   .hero.cta-section.text-center p {
+     color: #fff;
+     font-weight: 400;
+     font-size: 22px;
+   }
+
+   .hero.cta-section::after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #073b4c;
+	content: '';
+	opacity: .38;
+	z-index: -1;
+}
+
+
+
+/* Bottom CTA */
+
+.bottom.cta-section{
+     background: url(../img/servies.hero-img.jpg);
+}
+
+/* Hero Forom */
+.hero-form-wrap{
+     padding: 0;
+}
+
+
+.hero-form-wrap {
+	padding: 45px 50px;
+	box-shadow: 10px 10px 25px #eee;
+}
+
+.hero-form-wrap input[type="submit"]{
+     width: auto;
+}
+
+
+
+/* FAQ */
+
+
+.faq-wrapper h2 {
+     font-size: 22px;
+     font-weight: 700;
+     color: #373737;
+     margin-bottom: 60px;
+   }
+   .single-faq .trigger {
+     font-size: 15px;
+     color: #373737;
+     font-weight: 600;
+     padding: 20px 0;
+     position: relative;
+     cursor: pointer;
+     z-index: 1;
+   }
+
+   .single-faq .content{
+        transition: .3s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        
+        margin-bottom: 30px;
+        max-height: 0;
+        overflow: hidden;
+}
+
+
+   .faq-tab-wrapper {
+     padding: 0 20px;
+     border: 1px solid #F0F0F0;
+   }
+  
+   .single-faq .trigger i {
+     position: absolute;
+     right: 0;
+     color: #373737;
+   }
+
+   .single-faq:target .content{
+        max-height: 200px;
+   }

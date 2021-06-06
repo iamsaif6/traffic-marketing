@@ -1,0 +1,177 @@
+
+/* Color Theme */
+
+.theme-2 .btn,.theme-2 input[type="submit"]{
+     background: #06D6A0;
+     border-color:#06D6A0 ;
+     width: auto;
+}
+ 
+.dropdown li a:hover{
+     background: #06D6A0;
+}
+
+ .social-link a:hover, .social-link a:hover i , nav .main-nav li:hover > a{
+	color: #06D6A0;
+}
+
+
+/* Slick Nav */
+
+.slick-nav .dropdown li a:hover,.slicknav_nav .slicknav_row:hover,.slicknav_nav a:hover,.slicknav_nav .slicknav_row:hover a,.slicknav_btn{
+     background: #06D6A0;
+   }
+
+
+
+/* Header Area */
+
+header.theme-2{
+     background: url(../img/02Homepage_version_02.png);
+     color: #fff;
+     background-size: cover;
+     background-position: center;
+}
+header.theme-2 h2{
+     color: #fff;
+     font-size: 50px;
+     line-height: 55px;
+}
+
+header.theme-2 p{
+     color: #fff;
+     line-height: 1.5;
+}
+
+.theme-2 header{
+     padding: 100px 0;
+}
+
+.theme-2 .hero-area-text h2{
+     width:100%;
+}
+
+
+
+   .theme-2 .hero-area-wrap{
+        padding:0;
+   }
+
+   .theme-2 .hero-area-text{
+        margin-top: 120px;
+   }
+
+   .theme-2 .services-text{
+        width: 100%;
+   }
+
+
+
+   .theme-2 .review-text{
+        width: 70%;
+        margin-bottom: 50px;
+        font-size: 18px;
+        color: #373737;
+   }
+
+   /* Review Section */
+
+   
+.single-review-carosuel i {
+     font-size: 15px;
+     height: 60px;
+     width: 60px;
+     background: #fff;
+     color: #05BDFE;
+     line-height: 60px;
+     border-radius: 50%;
+     border: 1px solid #E9E9E9;
+     margin-bottom: 55px;
+   }
+
+   /* Servies section */
+   .theme-2 .services-text h3 {
+     font-size: 22px;
+     font-weight: 400;
+     color: #373737;
+   }
+   
+.theme-2 .servies-img {
+     margin-top: 20px;
+   }
+
+
+
+   .theme-2 .owl-dots .owl-dot.active span {
+	background: #05BDFE;
+}
+
+
+/* Price Box */
+
+
+   
+.theme-2 .single-price-wrapper {
+     padding: 0;
+   }
+   .single-price-header {
+     background: #FBFBFB;
+     padding-top: 30px;
+   }
+   .theme-2 .single-price-wrapper .price {
+     color: #0FB4FC;
+   }
+   .theme-2 .single-price-wrapper .btn {
+     display: block;
+     border-radius: 0;
+     background: #2ECC71;
+   }
+   .theme-2 .single-price-wrapper ul {
+     margin-top: 60px;
+     margin-bottom: 70px;
+   }
+   .theme-2 .single-price-wrapper .price-time {
+     border: none;
+   }
+   .theme-2 .single-price-wrapper:hover {
+     border-color: #F6F6F6;
+   }
+
+ 
+
+/* CTA SECTION */
+
+   .theme-2 .cta-section{
+        text-align: center;
+        background: rgba(67, 132, 237, 0.801);
+        background: -moz-linear-gradient(top, rgba(67,131,237,1) 0%, rgba(41,137,216,1) 50%, rgba(5,189,254,1) 100%);
+        background: -webkit-linear-gradient(top, rgba(67,131,237,1) 0%,rgba(41,137,216,1) 50%,rgba(5,189,254,1) 100%);
+        background: linear-gradient(to bottom, rgba(67, 132, 237, 0.829) 0%,rgba(41, 137, 216, 0.801) 50%,rgba(5, 188, 254, 0.808) 100%);
+   }
+
+   .theme-2 .cta-section h2{
+        color: #fff;
+   }
+
+   .theme-2 .cta-section .btn{
+        background: #fff;
+        color: #373737;
+        padding: 16px 40px;
+   }
+
+   .theme-2 .cta-btn-wrap{
+        text-align: center;
+   }
+
+   /* Footet Section */
+   
+.footer-logo {
+     margin-bottom: 40px;
+   }
+   .theme-2 .social-link a {
+     display: block;
+   }
+
+   .theme-2 footer .description {
+	padding-right: 40px;
+}

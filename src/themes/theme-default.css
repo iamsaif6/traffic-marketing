@@ -1,0 +1,41 @@
+/* #########  Background Color  ########### */
+
+.slicknav_nav a:hover,
+.slick-nav .dropdown li a:hover,
+.slicknav_nav .slicknav_row:hover,
+.btn,
+.slick-nav .dropdown li a:hover,
+.slicknav_nav .slicknav_row:hover a,
+.slicknav_btn,
+.dropdown li a:hover,
+.hero-form input[type="submit"],input[type="submit"] ,button[type=submit],
+.single-caroseul-overlay,
+.owl-dots .owl-dot.active span
+
+
+{background: #EF476F;}
+
+
+/* ####################  Main Color ################# */
+
+nav .main-nav li:hover > a ,
+.single-servies-box:hover h4, .single-servies-box:hover i, 
+.single-servies-box:hover .servies-btn ,
+.single-price-wrapper .price,
+.social-link a:hover, 
+.social-link a:hover i,
+.Switcher button i
+
+
+{color: #EF476F;}
+
+/* ####################  Border Color ################# */
+
+.hero-form input[type="submit"],input[type="submit"] ,button[type=submit],
+.single-servies-box:hover,
+.single-price-wrapper:hover,
+.single-price-wrapper:hover .price-time,
+.footer-form input[type="submit"]
+
+
+{border-color:#EF476F ;}

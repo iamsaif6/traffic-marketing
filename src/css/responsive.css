@@ -1,0 +1,473 @@
+@media only screen and (max-width: 1200px) {
+
+     /* #############  Global  ####################
+     ############################################ */
+
+     .row{
+          max-width: 90%;
+          margin: 0 auto;
+     }
+
+     .section-padding{
+          padding: 70px 0;
+     }
+
+     .btn.btn-nav {
+          padding: 15px 14px;
+     }
+     /* Blog */
+     .blog .single-blog-post{
+          min-height: 332px;
+          margin-bottom: 20px;
+     }
+
+/* #############  Hero Form  ############*/
+
+.hero-form input[type="text"]{
+     min-width: auto;
+}
+      
+
+        .hero-form-wrap{
+             padding: 45px 35px;
+        }
+
+        .hero-form-header{
+             margin-bottom: 40px;
+        }
+
+        .theme-2 .hero-area-text h2{
+             font-size: 45px;
+        }
+
+
+         /* #############  Services Section  ############*/
+
+         
+
+    .theme-4 .services-bottom,.theme-4 .services-bottom .services-text{
+     margin-top: 50px;
+}
+
+     .theme-4 .services-text-wrap,.services-text-wrap{
+          padding-top: 0;
+     }
+
+         .single-servies-box{
+          min-height: 385px;
+     }
+
+
+        .theme-2 .servies-section .col:nth-child(4){
+          margin-left: 1.6%;
+        }
+
+        /* #############  Blog Section  ############*/
+     
+
+        .single-blog-wrapper{
+             min-height: 470px;
+        }
+
+        /*################# Footer Menu ###################### */
+
+        .footer-menu li a{
+             padding: 16px 15px;
+        }
+
+        .theme-3 .social-link a{
+             padding: 15px 2px;
+        }
+
+        /* CTA##################################### */
+
+        
+.theme-4.cta-section .span_1_of_2 ,   .feature-section .span_1_of_2{
+     width: 100%;
+     text-align: center;
+   }
+
+        
+}
+
+/* ######## Tablet  #########
+#####################################
+*/
+
+
+@media only screen and (max-width: 991px) {
+
+        /* Blog */
+        .blog .single-blog-post{
+          min-height: auto;
+     }
+
+
+     .hero-form-wrap:after,.absolute-servies::before,.main-nav,nav .span_8_of_12{
+          display: none;
+     }
+
+     .hero-form-wrap{
+          box-shadow:  0 0 0;
+          width: 80%;
+          margin: 0 auto;
+     }
+
+     .conatct-us-v1 .col.span_10_of_12,.conatct-us-v1 .span_5_of_12, .conatct-us-v1 section .col.span_7_of_12,.conatct-us-v1 section  .col.span_4_of_12,.absolute-servies .span_1_of_2,.absolute-servies::after, .blog-wrapper .span_8_of_12, header .span_1_of_2,.hero-area-text h2, .hero-area-img ,nav .logo, nav .span_2_of_12,nav .span_8_of_12{
+          width: 100%;
+     }
+
+     .contact-us-img-wrap{
+          width: 80%;
+          margin: 0 auto;
+          margin-bottom: 30px;
+          max-height: 350px;
+     }
+
+     
+     .servies-img ,.nav-btn, .services-bottom.theme-4, .services-bottom .services-text-wrap .section-title,header .span_1_of_2,.hero-area-text h2, .hero-area-img ,nav .logo{
+          text-align: center;
+     }
+ 
+     .offcanvas-menu .main-nav,.slicknav_menu,.theme-4 nav .span_8_of_12{
+          display: block;
+     }
+
+
+     .faq-section .span_1_of_2 {
+          width: 100%;
+          margin-bottom: 40px;
+     }
+
+     .ac > .ac-a p{
+          padding: 20px 20px 20px 20px;
+     }
+
+
+     .absolute-servies{
+          margin-top: 50px;
+     }
+
+     /* #############  Nav  ############*/
+
+     .theme-4 nav .span_2_of_12,.theme-4 nav .span_8_of_12{
+          width: 33.33%;
+     }
+
+     .theme-3 nav .logo{
+          margin-bottom: 0;
+     }
+
+
+     nav .span_2_of_12,nav .span_8_of_12,.servies-section .col:nth-child(3),.servies-section .col:nth-child(5) , .footer-form input[type="submit"]{
+          margin-left: 0;
+        }
+
+        
+        nav .logo {
+           margin-bottom: 10px;
+        }
+      
+     
+
+    /* #############  Hero Section  ############*/
+
+  
+
+
+     .theme-4 .single-slider-item, .hero-area-text,.services-text-wrap{
+          padding-top: 0;
+     }
+
+
+          .hero-area-wrap {
+               padding: 50px;
+          }
+
+          
+   .theme-2 .hero-area-text {
+     margin-top: 40px;
+   }
+
+
+
+
+          .theme-2 header .span_5_of_12,.services-bottom .span_5_of_12{
+               width: 80%;
+               margin-left: 10%;
+               text-align: center;
+             }
+             .theme-2 header {
+               padding: 50px 0;
+             }
+
+          /* #############  Services Section  ############*/
+
+
+          .servies-img img {
+               width: 60%;
+               margin-bottom: 25px;
+             }
+             .section-title {
+               margin-bottom: 50px !important;
+             }
+
+   
+               .servies-section .span_1_of_3 {
+                    width: 49%;
+               }
+               
+
+               .servies-section .col:nth-child(4){
+                    margin-left: 1.6% ;
+               }
+              
+               .col.span_1_of_2{
+                    margin-left: 0;
+                    margin-right: 0;
+               }
+
+               .contact-us-form .col.span_1_of_2:first-child,.blog-contact-form .col.span_1_of_2:first-child{
+                    margin-right: 1.6%;
+               }
+
+         
+
+               .section-title h3{
+                    margin-bottom: 15px;
+               }
+
+
+                  .theme-2 .servies-section .span_1_of_4 {
+                    width: 49%;
+                  }
+                  .section-title {
+                    margin-bottom: 30px;
+                  }
+               
+
+               /* #############  Review Section  ############*/
+
+               .review-text{
+                    width: 85%;
+               }
+
+               /* #############  Button  ############*/
+
+
+               .btn{
+                    padding: 15px 19px;
+               }
+
+
+               /* #############  Footer Form  ############*/
+
+               .footer-form input[type="submit"],.footer-form input[type="email"]{
+                    width: 100%;
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    -ms-border-radius: 3px;
+                    -o-border-radius: 3px;
+                    margin-bottom: 10px;
+               }
+
+                    
+          .footer-menu li a{
+               padding: 16px 9px;
+          }
+
+          .theme-3 footer{
+               padding: 30px 20px;
+          }
+
+
+}
+
+
+/* ######### Mediam Devices ########### 
+#################################################
+*/
+
+
+@media only screen and (max-width: 768px) {
+
+
+     .conatct-us-v2 section .span_7_of_12,.conatct-us-v2 section .span_4_of_12,.seo-form .span_10_of_12, .seo-form .span_2_of_12, .servies-section .span_1_of_3,.services-bottom .span_1_of_2,.services-text,.cta-section .span_7_of_12,.cta-section .span_5_of_12,.cta-btn-wrap,footer .col.span_8_of_12,footer .footer-span,.theme-3 footer .col,.footer-bottom .span_1_of_2,.footer-bottom .footer-menu,.blog-section .span_1_of_3{
+          width: 100%;
+     }
+
+     .contact-us-details-v2{
+          margin-top: 50px;
+     }
+
+
+ .theme-4 .feature-item-wrap{
+      padding-left: 30px;
+ }
+
+   .theme-4 .feature-img{
+        width: 75%;
+   }
+
+    .single-footer-link,  .services-text-wrap .section-title,   .single-testimonial-item ,.blog-section .span_1_of_3{
+     margin-bottom: 20px;
+   }
+
+ /* Slider Header */
+
+ .single-slider-item h1{
+      font-size: 40px !important;
+ }
+
+ .single-slider-item{
+      padding-top: 100px;
+ }
+
+ /* ######## SEO Form ######## */
+
+ 
+.seo-form .span_10_of_12, .seo-form .span_2_of_12 , .servies-section .span_1_of_3,.price-section .span_1_of_3,.blog-section .span_1_of_3{
+     margin: 0;
+   }
+
+ /* #############  Hero Area  ############*/
+
+ .hero-area-img,   .theme-3 .servies-img{
+      display: none;
+ }
+
+  /* #############  Services Area  ############*/
+
+  .theme-4 .service-img-absolute{
+       right: 65px;
+  }
+
+
+   .single-servies-box, .single-blog-wrapper{
+        min-height: auto;
+   }
+ 
+
+   .services-text,.cta-section .span_7_of_12,.cta-section .span_5_of_12,.cta-btn-wrap,    .single-footer-link,  .services-text-wrap .section-title,  footer .footer-span,.theme-3 footer .col,.theme-3 .social-link,.footer-bottom .span_1_of_2,.footer-bottom .footer-menu{
+        text-align: center;
+        
+   }
+
+   .theme-2 .servies-section .col:nth-child(4){
+     margin-left: 1.6%;
+   }
+
+   .servies-section .col:nth-child(4),.case-study-section .span_1_of_4:nth-child(3) ,.team-section .span_1_of_4:nth-child(3){
+     margin-left: 0% ;
+   }
+
+
+
+    /* #############  Brand Area  ############*/
+
+   .brand-logos .span_1_of_6{
+        width: 31.333%;
+   }
+
+
+    /* #############  Price Area  ############*/
+   
+.price-section .span_1_of_3 {
+     width: 80%;
+     margin-left: 10%;
+     margin-bottom: 20px;
+   }
+
+
+    /* #############  Footer  ############*/
+
+   .social-link a{
+     padding: 15px 10px;
+}
+
+
+   footer .footer-span {
+     margin-top: 20px;
+     margin-bottom: 25px;
+   }
+   .footer-form form{
+     margin-bottom: 30px
+   }
+   
+   footer.section-padding {
+     padding-bottom: 25px;
+   }
+
+
+   /* ###### Footer Bottom  ###### */
+
+   .footer-bottom .span_1_of_2,.footer-bottom .footer-menu{
+        margin-bottom: 10px;
+   }
+
+
+   /* Case Study */
+   .case-study-section .span_1_of_4,.team-section .span_1_of_4{
+        width: 49%;
+   }
+   
+}
+
+
+/* ######### Small Devices ########### */
+/* ######################################## */
+/* ######################################## */
+/* ######################################## */
+
+
+@media only screen and (max-width: 576px) {
+
+   
+     .social-share-link a{
+          width: 110px;
+          margin-right: 0;
+     }
+
+
+     .hero-area-wrap{
+          padding: 20px 0;
+     }
+
+
+     .hero-form input[type="text"],.hero-form input[type="submit"]{
+          margin-bottom: 10px;
+     }
+
+     .hero-form input[type="text"],.hero-form input[type="submit"],.blog-section .span_1_of_3,   .theme-2-case-study .span_1_of_3{
+          width: 100%;
+     }
+
+
+     /* Blog Section */
+
+     
+.blog-section .span_1_of_3 ,   .theme-2-case-study .span_1_of_3{
+     margin: 0;
+     margin-bottom: 20px;
+   }
+
+   .single-blog-wrapper{
+        min-height: auto;
+   }
+
+
+   /* Footer */
+
+   .theme-2 footer .description{
+        padding: 0;
+   }
+
+   /* Services */
+
+   .theme-2 .servies-section .col:nth-child(4){
+     margin-left:0%;
+   }
+    
+    }
+    
