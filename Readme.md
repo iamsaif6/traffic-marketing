@@ -1,10 +1,10 @@
-# Book Shop - online e-Book site
+# Traffic Marketing - 20 pages website
 
 <br>
 
-<img src="https://github.com/iamsaif6/book-shop/blob/master/Screenshot%202021-06-06%20at%2010-35-51%20Book%20Shop.png" width="800px" />
+<img src="https://github.com/iamsaif6/traffic-marketing/blob/master/Screenshot%202021-06-06%20at%2011-43-02%20Home%201.png" width="800px" />
 
-> ## For live preview : [Click Here](https://iamsaif6.github.io/book-shop/ "Book shop")
+> ## For live preview : [Click Here](https://iamsaif6.github.io/traffic-marketing/ "Traffic")
 
  <br>
 
